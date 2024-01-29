@@ -13,24 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agents/Welcome.md",
+                "file": "Agents/Memory of agents.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "79b64e68e66b297a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4de0c76004744159",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agents/Welcome.md",
+                "file": "Agents/Memory of agents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Agents/Welcome.md",
+                "file": "Agents/Memory of agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Agents/Welcome.md"
+                "file": "Agents/Memory of agents.md"
               }
             }
           },
@@ -168,8 +154,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f6588378367d93f2",
+  "active": "111d6dcec326e9c9",
   "lastOpenFiles": [
+    "Agents/Welcome.md",
+    "Agents/Memory of agents.md",
     "README.md",
     "untitled folder",
     "Welcome.md"

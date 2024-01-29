@@ -59,4 +59,9 @@ Interaction with these environments can be modeled as a special case of Partiall
 ### Progress rate
 In each round of interaction, a progress rate, denoted as rt, is assigned to evaluate the agent’s ad- vancement towards the goal state g. As the agent moves through the states st = [s0, . . . , st], we assess its progress using a matching score f(·,g) → [0,1] that quantifies the similarity between the current state and the goal state. The initial value of rt is set to 0, indicating no progress. The progress rate rt reflects the highest matching score achieved, reaching 1 when the task is completed. The progress rate is formulated as below:
 
-if we have 
+if we have direct state comparison it is just measure similarity, bit if it is not, then we divide a goal on sequential subgoals. Each subgoal is associated with a labeled state, that indicates its completion
+
+
+
+
+

@@ -2,7 +2,7 @@
  - *training memory* - knowledge and facts that a model learns during the pre-training process. This information stored in model's parameters
  - *short term memory* - temporary information, that AI posses during task executon (zero-shot, few-shot?), information about intermediate results
  - *long term memory* - information, stored in an external storage system (RAG?)
-   ![[Screenshot%202024-01-28%20at%2015.46.45.png]]
+   ![check](Screenshot%202024-01-28%20at%2015.46.45.png)
 ## KAFT
 By incorporating counterfactual and irrelevant contexts to standard supervised dataset. *Is it possible to design a mechanism to ensure that the context can influence the model's working memory in a desirable manner?* 
 

@@ -63,7 +63,13 @@ if we have direct state comparison it is just measure similarity, bit if it is n
 
 **As I understand the each task for each environment were annotated by subgoals by annotators(and they have a set of iterations for annotators) so that to improve quality of annotation for subgoals**
 
+### memory - success long-range memory
 We analyze how the models proceed across long-range interactions. Specifically, we calculate the progress rate relative to the number of interaction steps
+
+
+### sub-skill analysis
+
+
 
 
 

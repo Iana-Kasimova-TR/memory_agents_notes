@@ -63,11 +63,18 @@ if we have direct state comparison it is just measure similarity, bit if it is n
 
 **As I understand the each task for each environment were annotated by subgoals by annotators(and they have a set of iterations for annotators) so that to improve quality of annotation for subgoals**
 
-### memory - success long-range memory
+### memory as success long-range interaction
 We analyze how the models proceed across long-range interactions. Specifically, we calculate the progress rate relative to the number of interaction steps
 
 
 ### sub-skill analysis
+memory - incorporating long-range information in context
+planning - decomposing goals
+world modelling - which tests knowledge for task completion 
+retrospection - captures the ability to use environmental feedback
+grounding - competency to generate valid actions
+spatial navigation - efficiency in moving to target location
+**I am a little bit confused about scores for sub-skills and estimation of sub-skill capabilities **
 
 
 

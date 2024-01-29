@@ -55,4 +55,8 @@ Build Skill library:
  Task diversity, multi-round interaction(mimic realistic scenarious), partially-observable environments
 Interaction with these environments can be modeled as a special case of Partially Observable Markov Decision Process -  $⟨g, S, A, O, T ⟩$, 0. with goal g, state space S, valid actions space A, observation space (including environment feedback) O, transition function $T :S×A→S$ An agent with policy $π$ makes prediction at timestep $t$ based on goal $g$ and memory $m_t = {o_j , a_j , o_{j+1}, a_{j+1}, . . . o_t}, 0 ≤ j < t$, which is a sequence of actions and observations. This trajectory of the agent $τ = [s_0, a_0, s_1, a_1, . . . s_t]$ is formulated by policy and environmental state transitions, such as
  $p_π(τ) = p(s_0)π(a_t|g,s_t,m_t)T(s_{t+1}|s_t,a_t)$
- 
+
+### Progress rate
+In each round of interaction, a progress rate, denoted as rt, is assigned to evaluate the agent’s ad- vancement towards the goal state g. As the agent moves through the states st = [s0, . . . , st], we assess its progress using a matching score f(·,g) → [0,1] that quantifies the similarity between the current state and the goal state. The initial value of rt is set to 0, indicating no progress. The progress rate rt reflects the highest matching score achieved, reaching 1 when the task is completed. The progress rate is formulated as below:
+
+if we have 

@@ -74,7 +74,12 @@ world modelling - which tests knowledge for task completion
 retrospection - captures the ability to use environmental feedback
 grounding - competency to generate valid actions
 spatial navigation - efficiency in moving to target location
-**I am a little bit confused about scores for sub-skills and estimation of sub-skill capabilities **
+**I am a little bit confused about scores for sub-skills and estimation of sub-skill capabilities**
+
+
+Мера для первого довольно простая, а вот для второго и третьего они вручную размечают части датасета, как более или менее требующие этих скилов. - как я поняла тут они добавляли в датасет вручную описание окружающей среды, и добавляют подцели
+
+Как они улучшали датасеты для того чтобы проверить ск
 
 
 

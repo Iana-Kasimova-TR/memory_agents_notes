@@ -23,9 +23,14 @@
             "id": "ec90b246336b21ff",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "canvas",
               "state": {
-                "currentVersion": "1.5.11"
+                "file": "Dropout deep learning.canvas",
+                "viewState": {
+                  "x": 18.599999999999998,
+                  "y": -334.46203125,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -96,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agents/Memory of agents.md",
+                "file": "Dropout deep learning.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Agents/Memory of agents.md",
+                "file": "Dropout deep learning.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Agents/Memory of agents.md"
+                "file": "Dropout deep learning.canvas"
               }
             }
           },
@@ -167,6 +172,7 @@
   },
   "active": "ec90b246336b21ff",
   "lastOpenFiles": [
+    "Dropout deep learning.canvas",
     "Agents/Screenshot 2024-01-28 at 17.11.44.png",
     "Agents/Screenshot 2024-01-28 at 15.46.45.png",
     "Agents/Screenshot 2024-01-28 at 17.19.49.png",

@@ -2,7 +2,7 @@
  - *training memory* - knowledge and facts that a model learns during the pre-training process. This information stored in model's parameters
  - *short term memory* - temporary information, that AI posses during task executon (zero-shot, few-shot?), information about intermediate results
  - *long term memory* - information, stored in an external storage system (RAG?)
- ![[Screenshot 2024-01-28 at 15.46.45.png]]
+   ![screenshot #1](Screenshot%202024-01-28%20at%2015.46.45.png)
 ## KAFT
 By incorporating counterfactual and irrelevant contexts to standard supervised dataset. *Is it possible to design a mechanism to ensure that the context can influence the model's working memory in a desirable manner?* 
 
@@ -16,7 +16,7 @@ where r - whether the context entails the answer, a-answer from M model(before f
 model doesn't now r priori
 
 ## Voyager:
-![[Screenshot 2024-01-28 at 17.11.44.png]]
+![screenshot #2](Screenshot%202024-01-28%20at%2017.11.44.png)
 key modules:
 1. Automatic curriculum that maximizes exploration
 2. Skill library for storing and retrieving comlplex behaviours
@@ -39,7 +39,7 @@ Build Skill library:
 		- The generated code from the last round, environment feedback, execution errors, and critique
 		- The agent’s current state
 		- Chain of thought prompting
-	![[Screenshot 2024-01-28 at 17.19.49.png]]
+	![screenshot #3](Screenshot%202024-01-28%20at%2017.19.49.png)
 
 **As I understand Voyager build knowledgebase for RAG automatically, and it is possible because we can get feedback from environment(code won't be executed)**
 
